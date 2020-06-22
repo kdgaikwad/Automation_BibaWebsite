@@ -24,7 +24,7 @@ import java.io.File;
 				Reporter.log(" Screenshot Captured Successfully",true);
 			} catch (IOException e) {
 				Reporter.log("Screenshot capturing Failed.....",true);
-				//e.printStackTrace();
+				
 			}
 	        return path;
 		}
