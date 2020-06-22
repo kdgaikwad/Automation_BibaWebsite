@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Testcases Exceution Report For Website]]>
+    </line>
+    <line>
+      <![CDATA[-----SearchItem Testcase completed successfully-----]]>
+    </line>
+    <line>
+      <![CDATA[-----addTocart Testcase completed successfully-----]]>
+    </line>
+    <line>
+      <![CDATA[-----logout Testcase completed successfully-----]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-06-21T11:47:16 IST" name="Default suite" finished-at="2020-06-21T11:48:12 IST" duration-ms="55821">
+    <groups>
+    </groups>
+    <test started-at="2020-06-21T11:47:16 IST" name="Default test" finished-at="2020-06-21T11:48:12 IST" duration-ms="55821">
+      <class name="TestWebsite.TestBibaWebsite">
+        <test-method is-config="true" signature="testOpenBrowser()[pri:0, instance:TestWebsite.TestBibaWebsite@75329a49]" started-at="2020-06-21T11:46:50 IST" name="testOpenBrowser" finished-at="2020-06-21T11:47:16 IST" duration-ms="25613" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcases Exceution Report For Website]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testOpenBrowser -->
+        <test-method signature="testSignInPage()[pri:0, instance:TestWebsite.TestBibaWebsite@75329a49]" started-at="2020-06-21T11:47:16 IST" name="testSignInPage" description="TC001--signin--This Testcase Verifies that User is able to Login with  Valid Credentials which are taken from excel sheet" finished-at="2020-06-21T11:47:39 IST" duration-ms="23291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignInPage -->
+        <test-method is-config="true" signature="Screenshot(org.testng.ITestResult)[pri:0, instance:TestWebsite.TestBibaWebsite@75329a49]" started-at="2020-06-21T11:47:39 IST" name="Screenshot" finished-at="2020-06-21T11:47:41 IST" duration-ms="2032" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSignInPage status=SUCCESS method=TestBibaWebsite.testSignInPage()[pri:0, instance:TestWebsite.TestBibaWebsite@75329a49] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Screenshot -->
+        <test-method signature="testSearchItem()[pri:1, instance:TestWebsite.TestBibaWebsite@75329a49]" started-at="2020-06-21T11:47:41 IST" name="testSearchItem" description="TC002--searchItem--This Testcase Verifies User is able to search the particular item which is taken from Excel sheet. " finished-at="2020-06-21T11:47:48 IST" duration-ms="6304" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[-----SearchItem Testcase completed successfully-----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSearchItem -->
+        <test-method is-config="true" signature="Screenshot(org.testng.ITestResult)[pri:0, instance:TestWebsite.TestBibaWebsite@75329a49]" started-at="2020-06-21T11:47:48 IST" name="Screenshot" finished-at="2020-06-21T11:47:48 IST" duration-ms="545" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchItem status=SUCCESS method=TestBibaWebsite.testSearchItem()[pri:1, instance:TestWebsite.TestBibaWebsite@75329a49] output=-----SearchItem Testcase completed successfully-----]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Screenshot -->
+        <test-method signature="testAddToCart()[pri:2, instance:TestWebsite.TestBibaWebsite@75329a49]" started-at="2020-06-21T11:47:48 IST" name="testAddToCart" description="TC003--addToCart--This Testcase Verifies User is able to add the searched item to Cart" finished-at="2020-06-21T11:48:03 IST" duration-ms="14801" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[-----addTocart Testcase completed successfully-----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="Screenshot(org.testng.ITestResult)[pri:0, instance:TestWebsite.TestBibaWebsite@75329a49]" started-at="2020-06-21T11:48:03 IST" name="Screenshot" finished-at="2020-06-21T11:48:04 IST" duration-ms="495" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddToCart status=SUCCESS method=TestBibaWebsite.testAddToCart()[pri:2, instance:TestWebsite.TestBibaWebsite@75329a49] output=-----addTocart Testcase completed successfully-----]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Screenshot -->
+        <test-method signature="testLogOut()[pri:3, instance:TestWebsite.TestBibaWebsite@75329a49]" started-at="2020-06-21T11:48:04 IST" name="testLogOut" description="TC004--logout--This Testcase Verifies User is able to logout from website" finished-at="2020-06-21T11:48:12 IST" duration-ms="7944" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[-----logout Testcase completed successfully-----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLogOut -->
+        <test-method is-config="true" signature="Screenshot(org.testng.ITestResult)[pri:0, instance:TestWebsite.TestBibaWebsite@75329a49]" started-at="2020-06-21T11:48:12 IST" name="Screenshot" finished-at="2020-06-21T11:48:12 IST" duration-ms="253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogOut status=SUCCESS method=TestBibaWebsite.testLogOut()[pri:3, instance:TestWebsite.TestBibaWebsite@75329a49] output=-----logout Testcase completed successfully-----]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Screenshot -->
+        <test-method is-config="true" signature="testCloseBrowser()[pri:0, instance:TestWebsite.TestBibaWebsite@75329a49]" started-at="2020-06-21T11:48:12 IST" name="testCloseBrowser" finished-at="2020-06-21T11:48:16 IST" duration-ms="4001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCloseBrowser -->
+      </class> <!-- TestWebsite.TestBibaWebsite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
